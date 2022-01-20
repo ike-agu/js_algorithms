@@ -74,3 +74,15 @@ function reverseString(str) {
 }
 
 reverseString("hello");
+
+// TASK 7 replace the first letter of each str and make all the other characters lower case.
+
+function capitalizeName(name){
+  let arrName = name.toLowerCase().split(' ')
+  let capitalizeFullName = arrName.map(function(element){
+    return element.replace(element.charAt(0), element.charAt(0).toUpperCase())
+  });
+  return capitalizeFullName.join(' ');
+};
+
+console.log(capitalizeName('ikenna fraNklin johN mike'));
