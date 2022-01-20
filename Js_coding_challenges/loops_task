@@ -1,6 +1,40 @@
-Write a for loop that iterates through our vacationSpots array using i as the iterator variable.
-
+Write a for loop that iterates through our vacationSpots array using i as the
+iterator variable.
 Inside the block of the for loop, use console.log() to log each element in the
 vacationSpots array after the string 'I would love to visit '. For example,
 the first round of the loop should print 'I would love to visit Bali' to the
 console.
+
+
+                       NESTED LOOP task
+
+Imagine you’re a big-wig programmer for a social media platform! You have been
+tasked with building a prototype for a mutual followers program. You’ll need two
+arrays of “friends” from two mock users so that you can extract the names of the
+followers who exist in both lists
+Create a nested loop that iterates through bobsFollowers as the array for the
+outer loop and tinasFollowers as the array for the inner loop. If the current
+element from the outer loop is the same as the current element from the inner
+loop, push that element into the mutualFollowers array.
+
+
+                        WHILE LOOP task
+
+
+Create a while loop with a condition that checks if the currentCard does not
+have that value 'spade'.
+your while loop will give us a random number from 0 to 3.
+We’ll use this number to index the cards array, and assign the value of
+currentCard to a random element from that array.
+And print result.
+
+
+                        do...while task
+
+We’d like a program to simulate part of the cake-baking process. Depending on
+the recipe, a different number of cups of sugar is required. Create the
+variable cupsOfSugarNeeded, and assign it a number value of your choosing.
+The cups of sugar must be added to the batter one at a time. Declare the
+variable cupsAdded and assign it the value 0.
+We have a sweet tooth, so we want to add at least one cup of sugar to the
+batter even if the value of cupsOfSugarNeeded is 0.

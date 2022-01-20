@@ -1,0 +1,60 @@
+
+TASK 1 .map() method
+
+create a new array that contains the first character of each string in the
+animals array. Save the new array to a const variable named secretMessage.
+
+TASK 1A .map() method
+
+divide all the numbers in bigNumbers by 100. Save the returned values to a
+variable declared with const called smallNumbers.
+
+
+task 2  .filter() method
+
+make the method  randomNumbers to return values that are less than 250. Save them
+to a new array called smallNumbers, declared with const.
+
+task 2A
+
+ Make the favoriteWords array to return elements that have more than 7 characters.
+ Save the returned array to a const variable named longFavoriteWords.
+
+TASK 3n .findIndex() method
+
+- on the animals array  find the index of the element that has the value
+'elephant' and save the returned value to a const variable named foundAnimal.
+-then  return the index of the first element that starts with 's' and
+Assign the returned value to a const variable named startsWithS.
+
+TASK 4 .reduce()
+
+ declare a new variable named newSum using the const keyword. Assign to newSum
+ the value of calling .reduce() on newNumbers.
+ The callback function has two parameters. The first parameter is accumulator
+ and the second parameter is currentValue. Use either a function expression or
+ an arrow function.
+ add three statements to the function body of the callback
+ console.log('The value of accumulator: ', accumulator);
+console.log('The value of currentValue: ', currentValue);
+return a statement that adds accumulator to currentValue.
+Add a second argument of 10 to .reduce() and log newSum
+
+Task 5 .some()
+
+- there is an array called words. We want to create a new array of interesting
+words. The first thing we want to do is check if there are words that are fewer
+than 6 characters long
+
+-Use the .filter() method to save any words longer than 5 characters to a new
+variable called interestingWords, declared with const.
+
+-check if every element has more than 5 characters.
+
+Task 5  .reverse()
+
+
+
+Reverse the provided string.
+You may need to turn the string into an array before you can reverse it.
+Your result must be a string.
