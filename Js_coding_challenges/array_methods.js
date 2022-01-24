@@ -87,37 +87,11 @@ function capitalizeName(name){
 
 console.log(capitalizeName('ikenna fraNklin johN mike'));
 
-// task 8 take a walk challenge
+// ===================task 8 Using the .splice() method============
 
-public class TakeATenMinuteWalk {
 
-    public static boolean isValid(char[] walk) {
-        if (walk.length != 10) {
-            return false;
-        }
+let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get',
+'easily', 'the', 'first', 'time,', 'it', 'is', 'about', 'what', 'you', 'can',
+'figure', 'out.', '-2015,', 'Chris', 'Pine,', 'Learn', 'JavaScript'];
 
-        int x = 0;
-        int y = 0;
-
-        for (Character c : walk) {
-            switch (c) {
-                case 'n':
-                    y++;
-                    break;
-                case 's':
-                    y--;
-                    break;
-                case 'e':
-                    x--;
-                    break;
-                case 'w':
-                    x++;
-                    break;
-                default :
-                    break;
-            }
-        }
-
-        return x == 0 && y == 0;
-    }
-}
+secretMessage.splice(6,5,"know")

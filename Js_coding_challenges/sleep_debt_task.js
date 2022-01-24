@@ -1,3 +1,7 @@
+// purpose of project:
+// 1. practice functions
+// 2. if statements or switch statements
+
 const getSleepHours = (day) => {
   if(day === 'monday'){
     return 10;

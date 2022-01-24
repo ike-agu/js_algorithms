@@ -51,10 +51,14 @@ variable called interestingWords, declared with const.
 
 -check if every element has more than 5 characters.
 
-Task 5  .reverse()
+Task 7  .reverse()
 
 
 
 Reverse the provided string.
 You may need to turn the string into an array before you can reverse it.
 Your result must be a string.
+
+==============TASK 8==============
+
+Use an array method to remove the strings get, right, the, first, time,, and replace them with the single string know,.
