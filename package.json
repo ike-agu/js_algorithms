@@ -1,0 +1,22 @@
+{
+  "name": "js_algorithms",
+  "version": "1.0.0",
+  "description": "js_algorithms for practice",
+  "main": "first_test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ike-agu/js_algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ike-agu/js_algorithms/issues"
+  },
+  "homepage": "https://github.com/ike-agu/js_algorithms#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
